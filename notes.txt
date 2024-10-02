@@ -1,0 +1,24 @@
+- create database using MongoDB (populate using contact_list.json)
+- classes for contacts and contact manager
+- use pymongo library to interact with database
+- CLI to interact with program (API endpoint)
+
+METHODS
+- create contact
+- normalize phone numbers to standard format and store them into database
+- get all contacts
+- get specific contact (via name/email)
+- update phone number only (via name/email) 
+- delete specific contact (via name/email)
+
+CLASSES:
+1. Contacts
+- name 
+- email
+- number
+2. Contact Manager
+
+TODO
+1. initialize database
+2. connect database
+3. create model, route, controller for contacts
